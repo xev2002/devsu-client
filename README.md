@@ -26,14 +26,14 @@ El login del cliente es importante al momento de usar el microservicio de cuenta
 ## Uso
 -  `POST http://localhost:3333/api/clientes`  
 El archivo para el body se encuentra en:  
-springboot-test-devsu-1-client\src\test\resources\data\clientes.json
+\src\test\resources\data\clientes.json
 - `PUT http://localhost:3333/api/clientes/2002`  
 El archivo para el body se encuentra en:  
-springboot-test-devsu-1-client\src\test\resources\data\clientePut.json
+\src\test\resources\data\clientePut.json
 - `PATCH http://localhost:3333/api/clientes/2002`  
 El archivo para el body se encuentra en:  
-springboot-test-devsu-1-client\src\test\resources\data\clientePatch.json
+\src\test\resources\data\clientePatch.json
 - `POST http://localhost:3333/auth/login`  
 El archivo para el body se encuentra en:  
-springboot-test-devsu-1-client\src\test\resources\data\clienteLogin.json
+\src\test\resources\data\clienteLogin.json
 - `DELETE http://localhost:3333/api/clientes/2002`
