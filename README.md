@@ -37,3 +37,24 @@ El archivo para el body se encuentra en:
 El archivo para el body se encuentra en:  
 \src\test\resources\data\clienteLogin.json
 - `DELETE http://localhost:3333/api/clientes/2002`
+
+
+---
+## Ejecución con Docker
+> 1. Crear carpeta llamada Devsu
+> 2. Pegar la carpeta mysql-init
+Esta carpeta debe contener el archivo init.sql con la creación del usuario y permisos necesarios.
+> 3. Pegar el archivo docker-compose.yml
+> 4. Descargar el repositorio devsu-client dentro de la carpeta Devsu
+> 5. Descargar el repositorio devsu-account dentro de la carpeta Devsu
+> 6. Dentro de la ruta, ejecutar el siguiente comando docker: docker-compose up --build
+
+
+La estructura para el perfecto funcionamiento debe ser:  
+Devsu  
+├── docker-compose.yml  
+├── mysql-init  
+│   └── init.sql  
+├── devsu-client  
+└── devsu-account  
+Es importante tener los puertos 3306, 3333 y 4444 disponibles.
